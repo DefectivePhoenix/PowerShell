@@ -1,0 +1,19 @@
+
+Name                                                            Length
+----                                                            ------
+10.1clients.xlsx                                                 14941
+8.1clients.xlsx                                                  16935
+9.1clients.xlsx                                                  17156
+apache_access.log                                              2779843
+Basic Vanilla Milkshake Recipe _ Bobby Flay _ Food Network.pdf   61804
+C916contents.txt                                                     0
+DailyLog.txt                                                       545
+eventA.log                                                       16129
+eventB.log                                                       15607
+eventC.log                                                       15706
+eventD.log                                                       16633
+eventE.log                                                       16611
+JanuaryEventPic1.jpeg                                          4150250
+prompts.ps1                                                       3073
+swedenCarnivalEvent.jpg                                          95010
+
