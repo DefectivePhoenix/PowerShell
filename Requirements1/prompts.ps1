@@ -1,7 +1,7 @@
 ﻿# Zachary Branum 012258848
 
 try{
-    clear
+    Clear-Host
     do{
 
         #Menu
@@ -67,7 +67,7 @@ try{
             Default {Write-Output "Pick a Different Task!"}
         }
     } until ($TaskSelection -eq 5)
-    clear
+    Clear-Host
     Write-Output "Thank you, Goodbye!"
 } catch [System.OutOfMemoryException] {
     Write-Output "Error: The script encountered an out-of-memory condition."
