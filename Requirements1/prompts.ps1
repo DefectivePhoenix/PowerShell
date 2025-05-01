@@ -57,7 +57,7 @@ try{
         # Current Running Processes - Press 4
         #Show the Current Running Processes in a grid.
             4 {
-                Get-Process | Sort-Object -Property VM | Format-Table -Autosize
+                Get-Process | Sort-Object VM | Select-Object -Property Id, ProcessName, CPU, @{Name="Virtual Memory (MB)"; Expression = { [int] ($_.VM / 1MB) } } | Format-Table -Autosize
             }
         # Exit - Press 5
         #Ends script execution.
